@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:title="Início" />
+        <item
+            android:id="@+id/dashboard"
+            android:title="Estatísticas" />
+        <item
+            android:id="@+id/ecosense"
+            android:title="Ecosense" />
+        <item
+            android:id="@+id/comodos"
+            android:title="Cômodos" />
+        <item
+            android:id="@+id/aparelhos"
+            android:title="Aparelhos" />
+        <item
+            android:id="@+id/configuracoes"
+            android:title="Tarifa" />
+        <item
+            android:id="@+id/compartilhar"
+            android:title="Compartilhar app" />
+        <item
+            android:id="@+id/sair"
+            android:title="Sair" />
+    </group>
+
+</menu>

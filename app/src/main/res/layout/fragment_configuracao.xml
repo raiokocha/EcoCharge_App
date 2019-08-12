@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment.ConfiguracaoFragment">
+
+    <LinearLayout
+        android:id="@+id/linearContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/capriola"
+            android:text="Configurações"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/input_tarifa"
+            android:layout_width="336dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_button"
+            android:ems="10"
+            android:maxLength="10"
+            android:fontFamily="@font/capriola"
+            android:hint="Tarifa Kw/h"
+            android:inputType="numberDecimal"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/button_salvar_conf"
+            android:layout_width="336dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_gradient"
+            android:elevation="0dp"
+            android:fontFamily="@font/capriola"
+            android:text="Salvar"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/capriola"
+            android:text="Onde achar o preço da tarifa?"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="353dp"
+            android:layout_height="312dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/untitled" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/capriola"
+            android:text="Detalhamento de tarifa cobrada"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/capriola"
+            android:text="Destacando o valor da cobrança multiplicado pelo consumo do cliente"
+            android:textAlignment="center"
+            android:textColor="@color/hint"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</ScrollView>

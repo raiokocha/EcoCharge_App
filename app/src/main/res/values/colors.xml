@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/tools">
+    <color name="colorPrimary">#6bb477</color>
+    <color name="colorPrimaryDark"
+        android:startColor="#64A8DE"
+        android:endColor="#6BB477"></color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="branca">#fff</color>
+    <color name="central">#1a242e</color>
+    <color name="cinza">#a4a4a4</color>
+    <color name="clara">#5caa9f</color>
+    <color name="verde">#6BB477</color>
+    <color name="border">#6ae7c0</color>
+    <color name="hint">#a5a5a5</color>
+    <color name="erro">#ed3636</color>
+    <color name="black">#000000</color>
+    <color name="actionModeColor">#5caa9f</color>
+
+
+</resources>
