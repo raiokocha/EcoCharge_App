@@ -7,4 +7,4 @@
 
   O aplicativo desenvolvido em Java para dispositivos android, utilizando a api 27.A principal função do aplicativo e apresentar toda informação coletado e pelo arduino e tratada pelo webservice.
   
-![alt text](https://github.com/raiokocha/EcoCharge_App/issues/1#issue-479630706)   
+![alt text](https://user-images.githubusercontent.com/30579803/62866513-502b6800-bce7-11e9-96c0-89bfcb0cd08a.png)   
